@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const temperatureDisplay = document.getElementById('temperature')
   const descriptionDisplay = document.getElementById('description')
   const errorMessage = document.getElementById('error-message')
-  const apikey = "d0fad22818683310f1793de4c45df34f" // save in env
+  const apikey = "api_key" // save in env
 
   getWeatherBtn.addEventListener('click', async () => {
     const city = cityName.value.trim()
